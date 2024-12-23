@@ -4,8 +4,8 @@ This project demonstrates how to create a TCP server running on an ESP32, with W
 
 ### Images
 
-- ![ESP32 Image](media/esp.jpg)
-- ![Telnet Image](media/telnet.png)
+![ESP32 Image](media/esp.jpg)
+![Telnet Image](media/telnet.png)
 
 
 ## Features
