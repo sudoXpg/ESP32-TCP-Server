@@ -12,7 +12,6 @@ This project demonstrates how to create a TCP server running on an ESP32, with W
 
 - **TCP Server**: The server listens on a specified port and sends a welcome message to the connected clients.
 - **Wi-Fi Connectivity**: Connects the ESP32 to a specified Wi-Fi network and handles reconnections.
-- **HTTP GET Handler**: Simple HTTP handler for responding to GET requests with a message.
 - **Event-driven Wi-Fi Management**: Automatically reconnects when the Wi-Fi connection is lost.
 
 ## Requirements
@@ -80,10 +79,6 @@ The `tcp_server()` function sets up a TCP server that listens for incoming clien
 - The server is bound to a port (`PORT`) and listens for connections.
 - Once a client is accepted, the server sends the message `"ESP32 - Welcome !"` to the client.
 - After the message is sent, the connection is closed.
-
-### 3. HTTP GET Handler (Optional)
-
-The `hello_get_handler()` function handles HTTP GET requests. It responds with `"Hello There!\n"` when a GET request is made to the server.
 
 ## Event Handler
 
