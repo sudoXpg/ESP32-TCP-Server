@@ -1,0 +1,5 @@
+.pio/
+.vscode/
+.vscode/extensions.json
+.vscode/settings.json
+sdkconfig.nodemcu-32s
